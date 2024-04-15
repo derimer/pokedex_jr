@@ -1,6 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 import PokemonCard from "./components/PokemonCard";
+
 const pokemonList = [
   {
     name: "bulbasaur",
