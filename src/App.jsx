@@ -29,6 +29,10 @@ const pokemonList = [
   },
 ];
 function App() {
+  useEffect(() => {
+    // Alert au démarrage de l'application
+    alert("hello pokemon trainer ");
+  }, []);
   const [pokemonIndex, setPokemonIndex] = useState(0);
 
   return (
